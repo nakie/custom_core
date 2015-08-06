@@ -1,0 +1,26 @@
+{
+  "name": "custom_core",
+  "version": "0.0.1",
+  "authors": [
+    "Nathan Crews <n_crews@hotmail.com>"
+  ],
+  "description": "Custom Responsive Drupal Bootstrap child theme.",
+  "main": "template.php",
+  "license": "MIT",
+  "homepage": "https://github.com/nakie",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.4.0",
+    "bootstrap": "~3.3.5",
+    "slick.js": "~1.5.8",
+    "animate.css": "~3.4.0"
+  }
+}
