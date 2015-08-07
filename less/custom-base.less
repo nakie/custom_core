@@ -9,3 +9,13 @@
 
 // include Font Awesome!
 @import "../vendor/fontawesome/less/font-awesome.less";
+
+
+/** custom class to use FontAwsome icon. **/
+.search-icon {
+  .fa;
+  .fa-3x;
+  &:before{
+      content: @fa-var-search;
+  }
+}
