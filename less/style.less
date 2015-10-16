@@ -4,8 +4,27 @@
 // Base-theme overrides.
 @import 'overrides.less';
 
+// Include Font Awsome!
+@import 'fontawesome.less';
+
 // Theme specific.
 @import 'custom-base.less';
 @import 'custom-min-768.less';
 @import 'custom-min-992.less';
 @import 'custom-min-1200.less';
+
+.debug(@var) {
+  &:after {
+    content: "@{var}";
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}

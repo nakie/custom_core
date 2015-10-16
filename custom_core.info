@@ -22,9 +22,9 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Slick jQuery Carousel
 ;;;;;;;;;;;;;;;;;;;;;;;;;
-stylesheets[all][] = vendor/slick/slick.css
-stylesheets[all][] = vendor/slick/slick_theme.css
-scripts[] = 'vendor/slick/slick.min.js'
+stylesheets[all][] = vendor/slick.js/slick/slick.css
+stylesheets[all][] = vendor/slick.js/slick/slick_theme.css
+scripts[] = 'vendor/slick.js/slick/slick.min.js'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
